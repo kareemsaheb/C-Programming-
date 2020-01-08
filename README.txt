@@ -54,3 +54,15 @@
    85  git push -u origin master
    86  git status 
    87  history
+
+
+-> git clone <url from ssh in git hub>  ==> it will create repo in local.
+   Basic git cammands
+    -> git status . [status of current repo untracked modified and deleted files]
+    -> git add .  [adding all files from current directory recuresivily.[inside sub directories] file color will change to green]
+         -> git diff . [to check the difference of changes before adding. After "git add" git diff will not show changes]
+    -> git commit . [commit the change. it will create commit id. file color will not show.
+                     Add commit message then save by using ctrl + X then save with Y then just enter for format]
+         -> git commit --amend . [if you want to append to the same commit]
+         -> git log [to check commit happened or not]
+    -> git push -f origin HEAD [to push changes into server(git hub)]
